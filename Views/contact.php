@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'azzedinehatem@gmail.com'; // Utilisez votre adresse e-mail réelle
-        $mail->Password = 'uhjn odic cxzd deco'; // Utilisez votre mot de passe réel ou mot de passe d'application
+        $mail->Password = 'mdp'; // Utilisez votre mot de passe réel ou mot de passe d'application
         $mail->SMTPSecure = 'tls'; 
         $mail->Port = 587;
 
